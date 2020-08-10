@@ -1,0 +1,21 @@
+body {
+  margin: 0 auto;
+  background-color: #f8f8f8;
+}
+
+.imgc {
+  margin: 4px;
+  background-color: #f8f8e0;
+}
+
+#inputfile {
+  position: fixed;
+  top: 20px;
+  /* left: 10px; */
+  right: 10px;
+}
+
+#container {
+  margin-top: 60px;
+  left: 10px;
+}
