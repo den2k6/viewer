@@ -1,7 +1,9 @@
 "use strict";
 
 {
+  const bdy = document.getElementById("bdy");
   const inputfile = document.getElementById("inputfile");
+  const btn = document.getElementById("btn");
   const container = document.getElementById("container");
 
   inputfile.addEventListener(
@@ -26,6 +28,28 @@
           container.appendChild(imgs);
         };
       }
+    },
+    false
+  );
+
+  const colors = [
+    "#ffe",
+    "#fef",
+    "#eff",
+    "#fee",
+    "#efe",
+    "#eef",
+    "#eee",
+    "#fff",
+    "#888",
+  ];
+
+  btn.addEventListener(
+    "click",
+    () => {
+      // alert("clicked");
+      bdy.style.backgroundColor =
+        colors[Math.floor(Math.random() * colors.length)];
     },
     false
   );

@@ -1,6 +1,12 @@
 body {
   margin: 0 auto;
-  background-color: #ddd;
+  background-color: #eee;
+}
+
+#btn {
+  position: fixed;
+  top: 50px;
+  right: 10px;
 }
 
 #inputfile {
@@ -16,17 +22,19 @@ body {
 }
 
 p {
-  background-color: #eee;
+  background-color: #fff8;
   /* border: 1px solid #444; */
   margin: 10px;
   padding: 10px;
   /* font-size: 16px; */
   box-shadow: 5px 5px 5px #888;
+  color: #555;
+  border-radius: 5px;
 }
 
 .imgc {
   margin: 10px;
-  background-color: #f8f8e0;
+  /* background-color: #f8f8e0; */
   border: 1px solid #444;
   box-shadow: 5px 5px 5px #888;
 }
